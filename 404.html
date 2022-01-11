@@ -2,7 +2,6 @@
 <html>
   <head>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'">
     <title>Page not found</title>
     <style type="text/css" media="screen">
       body {
@@ -48,23 +47,6 @@
 
     </style>
   </head>
-  <body>
-
-    <div class="container">
-
-      <h1>404</h1>
-      <p><strong>File not found</strong></p>
-
-      <p>
-        The site configured at this address does not contain the requested file.
-      </p>
-
-      <p>
-        This page might redirect automatically to the right page if you enabled JavaScript.
-      </p>
-
-    </div>
-  </body>
 <script>
 function qs(key) {
     var vars = [], hash;
@@ -116,5 +98,22 @@ if (window.location.href.includes("pivot/entry.php?") && !isNaN(Number(id))) {
 		window.location.replace(rootPath + 'archive/' + id + '.html');
 	}
 }
-</script>  
+</script>    
+  <body>
+
+    <div class="container">
+
+      <h1>404</h1>
+      <p><strong>File not found</strong></p>
+
+      <p>
+        The site configured at this address does not contain the requested file.
+      </p>
+
+      <p>
+        This page might redirect automatically to the right page if you enabled JavaScript.
+      </p>
+
+    </div>
+  </body>
 </html>
